@@ -1,10 +1,8 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Downloads/mealy.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/mealy.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module mealy
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Downloads/moore.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/moore.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module moore
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Downloads/top.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/top.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Downloads/testbench.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/testbench.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module testbench
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

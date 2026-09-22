@@ -1,2 +1,25 @@
 Time resolution is 1 ps
-$finish called at time : 150 ns : File "C:/Users/walfr/Downloads/testbench.sv" Line 70
+
+========================================
+TEST 1 - PRODUCTO A
+========================================
+PASS: Mealy dispenso producto A
+PASS: Moore dispenso producto A
+
+========================================
+TEST 2 - PRODUCTO B
+========================================
+PASS: Mealy dispenso producto B
+PASS: Moore dispenso producto B
+
+========================================
+TEST 3 - PRODUCTO C
+========================================
+PASS: Mealy dispenso producto C
+PASS: Moore dispenso producto C
+
+========================================
+TODAS LAS PRUEBAS PASARON CORRECTAMENTE
+========================================
+
+$finish called at time : 130 ns : File "C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/testbench.sv" Line 414
