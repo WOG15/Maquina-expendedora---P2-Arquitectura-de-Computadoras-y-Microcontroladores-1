@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Mon Sep 21 23:06:33 2026
+# Process ID         : 23252
+# Current directory  : C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1
+# Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file           : C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1/top.vds
+# Journal file       : C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1\vivado.jou
+# Running On         : W-G15
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 25073 MB
+# Swap memory        : 4026 MB
+# Total Virtual      : 29100 MB
+# Available Virtual  : 14089 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

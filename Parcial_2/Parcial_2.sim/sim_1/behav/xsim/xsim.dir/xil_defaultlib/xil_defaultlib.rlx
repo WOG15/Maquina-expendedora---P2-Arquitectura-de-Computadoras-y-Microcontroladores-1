@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 16 2026
+11:10:11
+C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.sim/sim_1/behav/xsim/glbl.v,1773749341,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/walfr/Downloads/mealy.sv,1790053076,systemVerilog,,C:/Users/walfr/Downloads/moore.sv,,mealy,,uvm,../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/walfr/Downloads/moore.sv,1790053112,systemVerilog,,C:/Users/walfr/Downloads/top.sv,,moore,,uvm,../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/walfr/Downloads/testbench.sv,1790053303,systemVerilog,,,,testbench,,uvm,../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/walfr/Downloads/top.sv,1789717255,systemVerilog,,C:/Users/walfr/Downloads/testbench.sv,,top,,uvm,../../../../../../../../../AMDDesignTools/2026.1/Vivado/data/rsb/busdef,,,,,

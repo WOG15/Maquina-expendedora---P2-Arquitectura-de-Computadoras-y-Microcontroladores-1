@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="64.801 ns"></ZoomEndTime>
+      <Cursor1Time time="22.966 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/M1" type="logic">
+      <obj_property name="ElementShortName">M1</obj_property>
+      <obj_property name="ObjectShortName">M1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/M2" type="logic">
+      <obj_property name="ElementShortName">M2</obj_property>
+      <obj_property name="ObjectShortName">M2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/SEL1" type="logic">
+      <obj_property name="ElementShortName">SEL1</obj_property>
+      <obj_property name="ObjectShortName">SEL1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/SEL0" type="logic">
+      <obj_property name="ElementShortName">SEL0</obj_property>
+      <obj_property name="ObjectShortName">SEL0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/A_mealy" type="logic">
+      <obj_property name="ElementShortName">A_mealy</obj_property>
+      <obj_property name="ObjectShortName">A_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/B_mealy" type="logic">
+      <obj_property name="ElementShortName">B_mealy</obj_property>
+      <obj_property name="ObjectShortName">B_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/C_mealy" type="logic">
+      <obj_property name="ElementShortName">C_mealy</obj_property>
+      <obj_property name="ObjectShortName">C_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/A_moore" type="logic">
+      <obj_property name="ElementShortName">A_moore</obj_property>
+      <obj_property name="ObjectShortName">A_moore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/B_moore" type="logic">
+      <obj_property name="ElementShortName">B_moore</obj_property>
+      <obj_property name="ObjectShortName">B_moore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/C_moore" type="logic">
+      <obj_property name="ElementShortName">C_moore</obj_property>
+      <obj_property name="ObjectShortName">C_moore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/M1" type="logic">
+      <obj_property name="ElementShortName">M1</obj_property>
+      <obj_property name="ObjectShortName">M1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/M2" type="logic">
+      <obj_property name="ElementShortName">M2</obj_property>
+      <obj_property name="ObjectShortName">M2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/SEL1" type="logic">
+      <obj_property name="ElementShortName">SEL1</obj_property>
+      <obj_property name="ObjectShortName">SEL1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/SEL0" type="logic">
+      <obj_property name="ElementShortName">SEL0</obj_property>
+      <obj_property name="ObjectShortName">SEL0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/A_mealy" type="logic">
+      <obj_property name="ElementShortName">A_mealy</obj_property>
+      <obj_property name="ObjectShortName">A_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/B_mealy" type="logic">
+      <obj_property name="ElementShortName">B_mealy</obj_property>
+      <obj_property name="ObjectShortName">B_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/C_mealy" type="logic">
+      <obj_property name="ElementShortName">C_mealy</obj_property>
+      <obj_property name="ObjectShortName">C_mealy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/A_moore" type="logic">
+      <obj_property name="ElementShortName">A_moore</obj_property>
+      <obj_property name="ObjectShortName">A_moore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/B_moore" type="logic">
+      <obj_property name="ElementShortName">B_moore</obj_property>
+      <obj_property name="ObjectShortName">B_moore</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/C_moore" type="logic">
+      <obj_property name="ElementShortName">C_moore</obj_property>
+      <obj_property name="ObjectShortName">C_moore</obj_property>
+   </wvobject>
+</wave_config>
