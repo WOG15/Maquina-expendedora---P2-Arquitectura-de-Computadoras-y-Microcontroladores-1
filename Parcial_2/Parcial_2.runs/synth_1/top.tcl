@@ -58,7 +58,7 @@ if {$::dispatch::connected} {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param general.usePosixSpawnForFork 1
-set_param synth.incrementalSynthesisCache C:/Users/walfr/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-8424-W-G15/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/walfr/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-23140-W-G15/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -76,9 +76,9 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/walfr/Downloads/mealy.sv
-  C:/Users/walfr/Downloads/moore.sv
-  C:/Users/walfr/Downloads/top.sv
+  C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/mealy.sv
+  C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/moore.sv
+  C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/top.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

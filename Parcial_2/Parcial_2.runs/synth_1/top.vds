@@ -4,8 +4,8 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
 # IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
 # SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
-# Start of session at: Mon Sep 21 23:06:33 2026
-# Process ID         : 23252
+# Start of session at: Tue Sep 22 03:48:36 2026
+# Process ID         : 30264
 # Current directory  : C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1
 # Command line       : vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file           : C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1/top.vds
@@ -20,40 +20,40 @@ INFO: [Common 17-3922] A valid Vivado Design Suite BASIC license has been detect
 # Host memory        : 25073 MB
 # Swap memory        : 4026 MB
 # Total Virtual      : 29100 MB
-# Available Virtual  : 14089 MB
+# Available Virtual  : 7642 MB
 #-----------------------------------------------------------
 source top.tcl -notrace
-create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 591.371 ; gain = 266.234
+create_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 592.980 ; gain = 267.316
 Command: synth_design -top top -part xa7a12tcpg238-2I
 Starting synth_design
 Attempting to get a license for feature 'Vivado_Synthesis' and/or device 'xa7a12t'
 INFO: [Common 17-349] Got license for feature 'Vivado_Synthesis' and/or device 'xa7a12t'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 11240
+INFO: [Synth 8-7075] Helper process launched with PID 16872
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1174.242 ; gain = 575.934
+Starting Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1176.902 ; gain = 577.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/walfr/Downloads/top.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'mealy' [C:/Users/walfr/Downloads/mealy.sv:3]
-INFO: [Synth 8-226] default block is never used [C:/Users/walfr/Downloads/mealy.sv:35]
-INFO: [Synth 8-6155] done synthesizing module 'mealy' (0#1) [C:/Users/walfr/Downloads/mealy.sv:3]
-INFO: [Synth 8-6157] synthesizing module 'moore' [C:/Users/walfr/Downloads/moore.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'moore' (0#1) [C:/Users/walfr/Downloads/moore.sv:3]
-INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/walfr/Downloads/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'top' [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/top.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'mealy' [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/mealy.sv:3]
+INFO: [Synth 8-226] default block is never used [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/mealy.sv:35]
+INFO: [Synth 8-6155] done synthesizing module 'mealy' (0#1) [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/mealy.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'moore' [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/moore.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'moore' (0#1) [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/moore.sv:3]
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/top.sv:3]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1294.148 ; gain = 695.840
+Finished Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1297.047 ; gain = 697.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.148 ; gain = 695.840
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.047 ; gain = 697.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xa7a12tcpg238-2I
----------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xa7a12tcpg238-2I
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.148 ; gain = 695.840
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.047 ; gain = 697.145
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'mealy'
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'moore'
@@ -79,7 +79,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'moore'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.148 ; gain = 695.840
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1297.047 ; gain = 697.145
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -110,20 +110,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1502.500 ; gain = 904.191
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:51 . Memory (MB): peak = 1501.371 ; gain = 901.469
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1502.500 ; gain = 904.191
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:51 . Memory (MB): peak = 1501.371 ; gain = 901.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1502.500 ; gain = 904.191
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:51 . Memory (MB): peak = 1501.371 ; gain = 901.469
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -141,37 +141,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -207,16 +207,16 @@ Report Instance Areas:
 |3     |  fsm_moore |moore  |    15|
 +------+------------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1759.910 ; gain = 1161.602
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:01:02 . Memory (MB): peak = 1758.719 ; gain = 1158.816
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:01:02 . Memory (MB): peak = 1759.746 ; gain = 1158.816
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1774.020 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1773.770 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1878.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1878.293 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -224,8 +224,8 @@ Synth Design complete | Checksum: c01b5fc4
 INFO: [Common 17-83] Releasing license: Vivado_Synthesis
 21 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1879.762 ; gain = 1288.391
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1879.762 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:01:09 . Memory (MB): peak = 1879.301 ; gain = 1286.320
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1879.301 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/walfr/Desktop/Maquina-expendedora---P2-Arquitectura-de-Computadoras-y-Microcontroladores-1/Parcial_2/Parcial_2.runs/synth_1/top.dcp' has been generated.
 INFO: [Vivado 12-24828] Executing command : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Sep 21 23:07:05 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 22 03:50:26 2026...

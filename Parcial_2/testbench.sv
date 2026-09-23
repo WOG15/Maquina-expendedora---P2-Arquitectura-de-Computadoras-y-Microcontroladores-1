@@ -292,7 +292,7 @@ module testbench;
 
         // S1 -> S3
         // Todavia no seleccionar producto
-        @(negedge clk);
+        @(negedge clk); //(Espera hasta el siguiente flanco de bajada para continuar)
 
         M1 = 1'b0;
         M2 = 1'b1;
@@ -303,7 +303,7 @@ module testbench;
 
         // Esperar a que se actualice el estado a S3
         @(posedge clk);
-        #1;
+        #1; // Espera una unidad de tiempo
 
 
         // En el siguiente negedge colocamos selector 11
